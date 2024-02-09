@@ -1,0 +1,99 @@
+@import url("./nav.css");
+.ZIGuc {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    position: relative;
+    background-color: inherit;
+}
+
+.bdBtSc {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    animation: 15000ms ease 0s infinite normal forwards running cbWWSx;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    margin-top: 14px;
+}
+.iJnYYS #animationText-1 {
+    animation-delay: 0ms;
+}
+.iJnYYS #animationText-2 {
+    animation-delay: 1500ms;
+}
+.iJnYYS #animationText-3 {
+    animation-delay: 3000ms;
+}
+.iJnYYS #animationText-4 {
+    animation-delay: 4500ms;
+}
+.iJnYYS #animationText-5 {
+    animation-delay: 6000ms;
+}
+.iJnYYS #animationText-6 {
+    animation-delay: 7500ms;
+}
+.iJnYYS #animationText-7 {
+    animation-delay: 9000ms;
+}
+.iJnYYS #animationText-8 {
+    animation-delay: 10500ms;
+}
+.iJnYYS #animationText-9 {
+    animation-delay: 12000ms;
+}
+.iJnYYS #animationText-10 {
+    animation-delay: 13500ms;
+}
+@keyframes cbWWSx{
+    0% {
+        top: 100%;
+        visibility: visible;
+    }
+    
+    10% {
+        top: 0px;
+    }
+    
+    20% {
+        top: -100%;
+        visibility: hidden;
+    }
+    
+    100% {
+        top: 100%;
+        visibility: hidden;
+    }
+    }
+    #searchber{
+        border: 2px solid #f8f8f800 !important;
+        overflow: hidden;
+        height: 46px;
+        width: 672px;
+        background-color: #f8f8f8;
+        position: relative;
+        bottom: 110px;
+        left: 520px;
+        color: #828282;
+        border-radius: 10px;
+    }
+    #searchber>a>div{
+        padding-left: 200px;
+        margin-left: 10px;
+        /* position: relative; */
+
+    }
+    #animationText-1,#animationText-2,#animationText-3,#animationText-4,#animationText-5,#animationText-6,#animationText-7,#animationText-8,#animationText-9,#animationText-10{
+        padding-left: 30px;
+    }
+    nav>div>i{
+        position: relative;
+        right: 210px;
+        font-size: 16px;
+    }
